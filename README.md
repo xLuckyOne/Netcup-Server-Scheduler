@@ -12,16 +12,13 @@ If any User writes "abort" the start / shutdown will be stopped. Handy if youre 
 
 Change following variables:
 
-YourWebhookURL = your Webhook for the Discord channel you want the 30 minute warning to be sent to 
 
-YourLoginName = your netcup login id (customer id)
-
-YourPassword = your webservice password (has to be activated seperately !NOT YOUR LOGIN PASSWORD FOR NETCUP!)
-
-YourServerName = the vSever ID 
-
-YourChannelID = the channel the bot will confirm the shutdown to
-
-YourBotToken = your Token ID to your Discord bot that will read messages in your server of chosing
-
-<end:stopVServer> or <end:startVServer> in payload = to stop or start the vServer
+| Variable        | Content           |
+| ------------- |:-------------:| 
+| YourWebhookURL      | your Webhook for the Discord channel you want the 30 minute warning to be sent to |
+| YourLoginName      | your netcup login id (customer id)      |
+| YourPassword | your webservice password (has to be activated seperately !NOT YOUR LOGIN PASSWORD FOR NETCUP!)     | 
+| YourServerName | the vSever ID       | 
+| YourChannelID | the channel the bot will confirm the shutdown to     | 
+| YourBotToken | your Token ID to your Discord bot that will read messages in your server of chosing      | 
+| <end:stopVServer> or <end:startVServer> |  in "payload =" to stop or start the vServer      | 
